@@ -1,0 +1,24 @@
+[
+  {
+    "database": "postgres",
+    "index": "book",
+    "nodes": {
+      "table": "book",
+      "schema": "public",
+      "columns": [
+        
+        "isbn",
+        "title",
+        "description"
+      ],
+      "children": [
+        {
+            "table": "author",
+            "columns": [
+                "name"
+            ]
+        }
+    ]
+    }
+  }
+]
